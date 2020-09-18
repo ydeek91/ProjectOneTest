@@ -1,0 +1,33 @@
+
+/**************************************************
+CSS: for overall layout appearance:
+navbar color adjustments /font change to "work sans". 
+****************************************************/
+
+
+
+.uk-navbar-container.uk-navbar {
+  
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    font-family: 'Work Sans', sans-serif !important;
+    font-size: 25px !important;
+    color: white;
+    background: black;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif !important;
+   
+}
+
+
+/* button adjustment that haven't worked, revisit at a later time */
+
+/* .uk-button.uk-button-secondary.uk-button-small:hover,
+.uk-button.uk-button-secondary.uk-button-small:focus {
+    background-color: $button-secondary-hover-background;
+    color: $button-secondary-hover-color;
+    @if(mixin-exists(hook-button-secondary-hover)) {@include hook-button-secondary-hover();}
+} */
