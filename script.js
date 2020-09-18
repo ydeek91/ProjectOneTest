@@ -22,7 +22,7 @@ $(document).ready(function () {
     // checkMealRecipe function has been given the users search criteria..
     // ..by the searchResults function, and it will now call on the edamam api..
 
-    function getMealRecipe() {
+    function getMealRecipe(mealSearchInput) {
         // var mealSearchInput = "korean tacos";
         var queryURL = `https://api.edamam.com/search?q=${mealSearchInput}&app_id=${edamamId}&app_key=${edamamKey}`
         $.ajax({
